@@ -1,5 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&family=Poppins:wght@100;200&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
+
+
 body {
+  font-family: 'Poppins', sans-serif;
   background-color: #f5f5f5;
   color: #4e4e4e;
 }
@@ -861,28 +865,10 @@ a:hover {
   text-align: center;
 }
 
-.service-box:hover .ico-circle {
-  transition: all 500ms ease;
-  color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
-}
-
-.service-box .service-ico {
-  margin-bottom: 1rem;
-  color: #1e1e1e;
-}
-
-.service-box .ico-circle {
-  transition: all 500ms ease;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.service-box .ico-circle i {
-  line-height: 0;
-  font-size: 40px;
+.service-box:hover{
+  box-shadow: 10px 10px 10px gray;
+  scale: 1.05;
+  transition: 0.5s ease-in-out;
 }
 
 .service-box .s-title {
